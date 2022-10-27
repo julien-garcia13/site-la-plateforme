@@ -7,7 +7,7 @@
 /* Le header */
 header
 {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     height: 100px;
@@ -34,7 +34,7 @@ nav ul
 nav ul li
 {
     float: left;
-    width: 25%;
+    width: 15%;
     text-align: center;
     position: relative;
 }
@@ -54,8 +54,8 @@ nav a
 }
 nav a:hover
 {
-    color: orange;
-    border-bottom: 2px solid gold;
+    color: #336699ff;
+    border-bottom: 2px solid #336699ff;
 }
 .en-dessous
 {
@@ -63,7 +63,7 @@ nav a:hover
     box-shadow: 0px 1px 27px #CCC;
     background-color: white;
     position: absolute;
-    width: 50%;
+    width: 70%;
     z-index: 1000;
 }
 nav > ul li:hover .en-dessous
