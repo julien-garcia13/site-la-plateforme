@@ -230,10 +230,21 @@ nav
     font-family: 'Roboto Slab', serif;
     color: #336699;
 }
+.recrue-talent-titres
+{
+    font-family: 'Roboto Slab', serif;
+    color: #336699;
+    font-size: 15px;
+}
 .recrue-talent
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
+}
+.div-vide
+{
+    margin-top: 5%;
 }
