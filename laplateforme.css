@@ -96,6 +96,7 @@ nav
     font-family: 'Roboto Slab', serif;
 }
 /* Le corps */
+/* Résumé */
 .resume
 {
     background-color: #336699;
@@ -103,6 +104,7 @@ nav
     display: flex;
     justify-content: space-evenly;
     justify-items: center;
+    align-items: center;
 }
 .resume-formeplate
 {
@@ -114,4 +116,109 @@ nav
 {
     width: 30%;
     height: 30%;
+}
+/*Bouton*/
+.bouton-1
+{
+    background-color: #ff2063ff;
+    border-radius: 20px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.bouton-1:hover, .bouton-1:focus
+{
+    background-color: #F082AC;
+}
+.bouton-2
+{
+    margin-top: 10%;
+    background-color: #ffca4b;
+    border-radius: 20px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+.bouton-2:hover, .bouton-1:focus
+{
+    margin-top: 10%;
+    background-color: #ffe19b;
+}
+.conditions
+{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+/* Les cursus */
+.classe-titre
+{
+    font-family: 'Roboto Slab', serif;
+    color: #336699;
+    font-size: 45px;
+}
+.classes
+{
+    margin-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.web-coding, .ai, .cybersec
+{
+   
+    box-shadow: 0px 1px 27px #CCC;
+}
+.web-coding-img
+{
+    height: 150px;
+    width: 150px;
+}
+.cursus
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40%;
+    margin-top: 10%;
+}
+.classe-titres
+{
+    margin-top: 5%;
+    font-family: 'Roboto Slab', serif;
+    color: #336699;
 }
