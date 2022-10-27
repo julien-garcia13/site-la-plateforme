@@ -191,19 +191,27 @@ nav
     color: #336699;
     font-size: 45px;
 }
+.classe-titre-zone
+{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .classes
 {
     margin-top: 2%;
     width: 100%;
-    display: flex;
-    justify-content: center;
 }
 .web-coding, .ai, .cybersec
 {
-   
-    box-shadow: 0px 1px 27px #CCC;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
 }
-.web-coding-img
+.web-coding-img, .ai-img, .cybersec-img, .recrue-talent-img
 {
     height: 150px;
     width: 150px;
@@ -212,13 +220,20 @@ nav
 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    width: 40%;
-    margin-top: 10%;
+    margin-top: 2%;
+    align-items: center;
 }
 .classe-titres
 {
     margin-top: 5%;
+    font-size: 15px;
     font-family: 'Roboto Slab', serif;
     color: #336699;
+}
+.recrue-talent
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
 }
