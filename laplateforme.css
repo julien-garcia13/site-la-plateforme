@@ -95,3 +95,23 @@ nav
 {
     font-family: 'Roboto Slab', serif;
 }
+/* Le corps */
+.resume
+{
+    background-color: #336699;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+}
+.resume-formeplate
+{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 25px;
+}
+.resume-formeplate-zone
+{
+    width: 30%;
+    height: 30%;
+}
