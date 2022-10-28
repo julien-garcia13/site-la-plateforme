@@ -333,3 +333,13 @@ footer
     font-family: 'Roboto Slab', serif;
     color: white;
 }
+.lien-2section
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.section-2
+{
+    display: flex;
+    flex-direction: column;
+}
