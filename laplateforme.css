@@ -179,7 +179,7 @@ nav
     margin-top: 10%;
     background-color: #ffe19b;
 }
-.conditions
+.conditions, .temoignages-resume
 {
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -248,4 +248,24 @@ nav
 .div-vide
 {
     margin-top: 5%;
+}
+/* Témoignages */
+.temoignages-titre
+{
+    margin-top: 2%;
+    font-size: 45px;
+    font-family: 'Roboto Slab', serif;
+    color: white;
+}
+.temoignages
+{
+    background-color: #ffa000;
+}
+.temoignages-zone
+{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
 }
