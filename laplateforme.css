@@ -95,7 +95,7 @@ nav
 {
     font-family: 'Roboto Slab', serif;
 }
-/* Le corps */
+/* Page d'accueil */
 /* Résumé */
 .resume
 {
@@ -342,4 +342,61 @@ footer
 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+}
+.bouton-3
+{
+    margin-top: 10%;
+    background-color: #313131;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: white;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+/* Style de liens */
+.footer-links:link
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.footer-links:visited
+{
+    color: grey;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}  
+.footer-links:hover
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.footer-links:active
+{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.copyright
+{
+    background-color: black;
 }
