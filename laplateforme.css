@@ -269,3 +269,60 @@ nav
     width: 100%;
     align-items: center;
 }
+.youtube-videos
+{
+    margin-top: 4%;
+}
+/* Footer */
+footer
+{
+    background-color: #313131;
+}
+.logo-formeplate-footer
+{
+    width: 20%;
+}
+/* Style logo réseaux sociaux */
+.fa
+{
+    padding: 10px;
+    width: 3%;
+    text-align: center;
+    text-decoration: none;
+}  
+.fa:hover
+{
+    opacity: 0.7;
+}
+.fa-facebook
+{
+    background: #3B5998;
+    color: white;
+}
+.fa-twitter
+{
+    background: #55ACEE;
+    color: white;
+}
+.fa-linkedin
+{
+    background: #007bb5;
+    color: white;
+}  
+.fa-youtube
+{
+    background: #bb0000;
+    color: white;
+}  
+.fa-instagram
+{
+    background: #125688;
+    color: white;
+}
+.logo-et-reseaux
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #bb0000;
+}
