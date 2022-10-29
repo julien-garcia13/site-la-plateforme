@@ -418,3 +418,13 @@ footer
     justify-content: center;
     align-items: center;
 }
+.formeplate-name-qui-sommes-nous-resume
+{
+    font-family: 'Roboto Slab', serif;
+    color:rgb(125, 125, 125);
+}
+.qui-sommes-nous-resume
+{
+    color:rgb(125, 125, 125);
+    font-family: 'Roboto', sans-serif;
+}
