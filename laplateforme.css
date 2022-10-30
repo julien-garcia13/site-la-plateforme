@@ -428,3 +428,39 @@ footer
     color:rgb(125, 125, 125);
     font-family: 'Roboto', sans-serif;
 }
+.texte-qui-sommes-nous-zone
+{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.texte1, .texte2
+{
+    width: 30%;
+}
+.qui-sommes-nous-links:link
+{
+    color:rgb(125, 125, 125);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.qui-sommes-nous-links:visited
+{
+    color:rgb(125, 125, 125);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}  
+.qui-sommes-nous-links:hover
+{
+    color:rgb(125, 125, 125);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.qui-sommes-nous-links:active
+{
+    color:rgb(125, 125, 125);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
