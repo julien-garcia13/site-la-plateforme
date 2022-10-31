@@ -464,3 +464,13 @@ footer
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+.logos
+{
+    width: 60%;
+}
+.partenaires-zone
+{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
