@@ -436,7 +436,7 @@ footer
     justify-content: space-evenly;
     align-items: center;
 }
-.texte1, .texte2
+.texte1, .texte2, .texte3, .texte4
 {
     width: 30%;
 }
@@ -477,4 +477,9 @@ footer
 .nos-certifications
 {
     background-color: rgb(246, 246, 246);
+}
+.qualiopi, .april
+{
+    width: 225px;
+    height: 118px;
 }
