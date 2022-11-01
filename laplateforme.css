@@ -511,3 +511,24 @@ footer
     flex-direction: row;
     justify-content: space-between;
 }
+/* AWS */
+.aws-intro
+{
+    background-color: black;
+}
+.formeplate-logo-white
+{
+    width: 19.4%;
+}
+.aws-intro-titre-white
+{
+    font-family: 'Roboto Slab', serif;
+    color: white;
+    font-size: 30px;
+}
+.aws-intro-titre-orange
+{
+    font-family: 'Roboto Slab', serif;
+    color:rgb(225, 123, 50);
+    font-size: 30px;
+}
