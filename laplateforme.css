@@ -515,10 +515,13 @@ footer
 .aws-intro
 {
     background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 .formeplate-logo-white
 {
-    width: 19.4%;
+    width: 59.4%;
 }
 .aws-intro-titre-white
 {
@@ -560,4 +563,20 @@ footer
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
+}
+.aws-intro-zone
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    justify-content: center;
+}
+.aws-pictures
+{
+    display: flex;
+    flex-direction: row;
+}
+.aws-logo
+{
+    width: 19%;
 }
