@@ -604,3 +604,15 @@ footer
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
 }
+.titre-de-fin-aws-zone
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titre-de-fin-aws
+{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
