@@ -580,3 +580,27 @@ footer
 {
     width: 19%;
 }
+.aws-links:link
+{
+    color:rgb(225, 123, 56);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.aws-links:visited
+{
+    color:rgb(225, 123, 56);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}  
+.aws-links:hover
+{
+    color:rgb(225, 123, 56);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+.aws-links:active
+{
+    color:rgb(225, 123, 56);
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
